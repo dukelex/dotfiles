@@ -124,6 +124,14 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 vim.lsp.config('pyright', {
 capabilities = capabilities
 })
+vim.lsp.config('ruff', {
+    init_options = {
+        settings = {
+            logLevel = 'debug'
+        }
+    }
+})
+
 vim.lsp.config('bash-language-server', {
 capabilities = capabilities
 })
