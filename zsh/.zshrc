@@ -119,6 +119,7 @@ alias po="poetry"
 alias "cal=cal -m"
 alias "pyhton=python"
 alias "py=python"
+alias "reboot=systemctl reboot"
 
 
 export ZVM_VI_EDITOR="/usr/bin/nvim"
