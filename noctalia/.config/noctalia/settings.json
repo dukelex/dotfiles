@@ -19,12 +19,12 @@
         "overviewLayer": false,
         "pinnedApps": [
         ],
-        "position": "center",
+        "position": "top_center",
         "screenshotAnnotationTool": "",
         "showCategories": true,
         "showIconBackground": false,
         "sortByMostUsed": true,
-        "terminalCommand": "alacritty -e",
+        "terminalCommand": "kitty -e",
         "viewMode": "list"
     },
     "audio": {
@@ -33,7 +33,7 @@
         "preferredPlayer": "mpv",
         "spectrumFrameRate": 144,
         "spectrumMirrored": true,
-        "visualizerType": "wave",
+        "visualizerType": "linear",
         "volumeFeedback": false,
         "volumeFeedbackSoundFile": "",
         "volumeOverdrive": false,
@@ -70,6 +70,10 @@
         "rightClickCommand": "",
         "rightClickFollowMouse": true,
         "screenOverrides": [
+            {
+                "enabled": true,
+                "name": "DP-2"
+            }
         ],
         "showCapsule": true,
         "showOnWorkspaceSwitch": true,
@@ -101,7 +105,7 @@
                 },
                 {
                     "colorName": "primary",
-                    "hideWhenIdle": false,
+                    "hideWhenIdle": true,
                     "id": "AudioVisualizer",
                     "width": 200
                 }
@@ -685,7 +689,7 @@
         ],
         "fillColor": "#000000",
         "fillMode": "crop",
-        "hideWallpaperFilenames": false,
+        "hideWallpaperFilenames": true,
         "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
         ],
