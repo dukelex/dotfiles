@@ -47,7 +47,7 @@
         "capsuleColorKey": "none",
         "capsuleOpacity": 0.92,
         "contentPadding": 3,
-        "density": "comfortable",
+        "density": "default",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": true,
         "fontScale": 1.17,
@@ -60,8 +60,10 @@
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
         "monitors": [
+            "DP-1",
+            "DP-2"
         ],
-        "mouseWheelAction": "none",
+        "mouseWheelAction": "workspace",
         "mouseWheelWrap": true,
         "outerCorners": true,
         "position": "top",
@@ -71,8 +73,13 @@
         "rightClickFollowMouse": true,
         "screenOverrides": [
             {
+                "displayMode": "auto_hide",
                 "enabled": true,
                 "name": "DP-2"
+            },
+            {
+                "enabled": true,
+                "name": "DP-1"
             }
         ],
         "showCapsule": true,
@@ -105,7 +112,7 @@
                 },
                 {
                     "colorName": "primary",
-                    "hideWhenIdle": true,
+                    "hideWhenIdle": false,
                     "id": "AudioVisualizer",
                     "width": 200
                 }
@@ -215,10 +222,10 @@
                     "textColor": "none"
                 },
                 {
-                    "displayMode": "forceOpen",
+                    "displayMode": "onhover",
                     "iconColor": "none",
                     "id": "KeyboardLayout",
-                    "showIcon": true,
+                    "showIcon": false,
                     "textColor": "none"
                 },
                 {
@@ -721,7 +728,7 @@
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "",
+        "wallhavenQuery": "aston martin",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
