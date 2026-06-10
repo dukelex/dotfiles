@@ -125,6 +125,9 @@ output "DP-2" {
 
 output "HDMI-A-1" {
     off
+    mode "3840x2160@60"
+    scale 2.25
+    position x=-4919 y=-720
 }
 
 // Settings that influence how windows are positioned and sized.
@@ -652,4 +655,4 @@ binds {
 }
 
 spawn-at-startup "qs" "-c" "noctalia-shell"
-spawn-at-startup "telegram-desktop"
+spawn-at-startup "Telegram"
