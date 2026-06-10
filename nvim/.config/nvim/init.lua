@@ -13,6 +13,7 @@ require("plugins.autopairs")
 require("plugins.hop")
 require("plugins.bufferline")
 require("plugins.dashboard")
+require("plugins.toggleterm")
 -- require("plugins.mini_pairs")
 
 --LSP-- move to cmp.setup()
