@@ -75,6 +75,7 @@ bindkey -v
 plugins=(git zoxide)
 plugins+=(vi-mode)
 plugins+=(zsh-syntax-highlighting)
+plugins+=(zsh-fzf-history-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -124,6 +125,8 @@ alias "reboot=systemctl reboot"
 
 export ZVM_VI_EDITOR="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
+export PAGER="/usr/bin/less"
+
 #export ZVM_VI_SURROUND_BINDKEY="classic"
 
 
@@ -131,3 +134,9 @@ export EDITOR="/usr/bin/nvim"
 export PATH="$PATH:/home/alexey/.local/bin"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.uv_completions
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/alexey/.lmstudio/bin"
+# End of LM Studio CLI section
+
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
