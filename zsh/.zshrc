@@ -121,6 +121,8 @@ alias "cal=cal -m"
 alias "pyhton=python"
 alias "py=python"
 alias "reboot=systemctl reboot"
+alias "grep=rg"
+alias "lg=lazygit"
 
 
 export ZVM_VI_EDITOR="/usr/bin/nvim"
