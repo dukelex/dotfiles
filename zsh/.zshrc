@@ -1,6 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
+# Загружаем модуль редактирования командной строки
+autoload -U edit-command-line
+zle -N edit-command-line
+
+# Привязываем к шорткату Ctrl + X, затем Ctrl + E
+bindkey -M viins '\ee' edit-command-line
+bindkey -M vicmd '\ee' edit-command-line
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
