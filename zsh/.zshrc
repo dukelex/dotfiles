@@ -131,6 +131,13 @@ alias "py=python"
 alias "reboot=systemctl reboot"
 alias "grep=rg"
 alias "lg=lazygit"
+alias "gco=git checkout"
+alias "gs=git status"
+alias "gc=git commit"
+alias "gP=git push"
+alias "gp=git pull"
+alias "gf=git fetch"
+
 
 
 export ZVM_VI_EDITOR="/usr/bin/nvim"
