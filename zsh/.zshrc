@@ -137,6 +137,7 @@ alias "gc=git commit"
 alias "gP=git push"
 alias "gp=git pull"
 alias "gf=git fetch"
+alias "myip=curl ifconfig.me"
 
 
 
